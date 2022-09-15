@@ -7,39 +7,47 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
+    return String(str);
   }
   
   function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
+    return (parseInt(x) + parseInt(y));
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    
+    return (parseInt(x) - parseInt(y));
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    return x * y;
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return x / y;
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    return x === y;
   }
   
   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+    return str1.lenth() == str2.lenth();
   }
   
   function menosQueNoventa(num) {
